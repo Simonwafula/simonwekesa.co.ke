@@ -9,31 +9,66 @@ export function SignatureLogo({ className, compact = false }: SignatureLogoProps
   return (
     <span className={cn("inline-flex items-center", className)}>
       <svg
-        aria-labelledby="signature-logo-title"
-        className={cn("h-10 w-[176px]", compact && "h-9 w-[158px]")}
+        aria-label="Simon Wekesa"
+        className={cn("h-[74px] w-[320px]", compact && "h-9 w-[170px] sm:h-10 sm:w-[196px]")}
         fill="none"
         role="img"
-        viewBox="0 0 220 52"
+        viewBox={compact ? "0 0 280 64" : "0 0 420 96"}
         xmlns="http://www.w3.org/2000/svg"
       >
-        <title id="signature-logo-title">Simon Wekesa</title>
-        <rect height="32" rx="2" stroke="#D8D5CB" width="32" x="2" y="10" />
-        <rect height="13" stroke="#8A5A32" strokeOpacity="0.72" width="16" x="7" y="15" />
-        <rect height="14" stroke="#9CA3AF" width="15" x="15" y="23" />
-        <path
-          d="M49 34c7-15 15-24 22-24 4 0 5 4 2 9-4 7-12 10-17 6-3-2-3-6 0-9 5-5 15 0 16 10 1 8-5 14-13 14-4 0-8-2-10-6Zm39-2c4-10 7-15 10-15 2 0 2 3 0 8-2 5-4 9-2 9 3 0 8-9 12-17m-1 17c5-13 10-19 16-18 4 1 4 6 0 13-4 6-9 8-12 5-4-4 4-16 13-17 8-1 9 9 2 17m18-18c-3 8-5 14-2 17 3 3 9-5 14-17m5 0c-6 16-3 22 7 16 5-3 9-9 11-14m-2 14c7-17 15-24 24-22"
-          stroke="#1F2933"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="3.1"
-        />
-        <path
-          d="M47 42c34 5 83 4 142-2"
-          stroke="#8A5A32"
-          strokeLinecap="round"
-          strokeOpacity="0.62"
-          strokeWidth="1.6"
-        />
+        <g transform={compact ? "translate(1 8) scale(.64)" : "translate(2 10)"}>
+          <rect fill="#142235" height="72" rx="2" width="72" />
+          <rect height="48" rx="1" stroke="#F7F5F0" strokeWidth="2.4" width="48" x="12" y="12" />
+          <rect height="36" rx="1" stroke="#F7F5F0" strokeOpacity="0.82" strokeWidth="2" width="36" x="18" y="18" />
+          <path
+            d="M25 31c3.4-6.2 18.6-6.4 22.4-.7 3.1 4.8-1.1 9.3-8.8 9.3H30c-4.9 0-6.7 4.5-2.7 7.5 4.8 3.7 15.2 2.4 19-2.7"
+            stroke="#F7F5F0"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3"
+          />
+          <path
+            d="M21 31l12.5 25L42 38l9.5 18L62 20"
+            stroke="#F7F5F0"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3"
+          />
+          <rect height="60" rx="1" stroke="#8A5A32" strokeOpacity="0.55" width="60" x="6" y="6" />
+        </g>
+
+        <g transform={compact ? "translate(58 7)" : "translate(94 8)"}>
+          <text
+            fill="#142235"
+            fontFamily='"Snell Roundhand", "Segoe Script", "Brush Script MT", "Bradley Hand", cursive'
+            fontSize={compact ? "38" : "58"}
+            fontStyle="italic"
+            fontWeight="500"
+            x="0"
+            y={compact ? "36" : "54"}
+          >
+            Simon Wekesa
+          </text>
+          <path
+            d={compact ? "M5 44C61 39 126 39 202 43" : "M8 65C86 58 184 58 302 64"}
+            stroke="#8A5A32"
+            strokeLinecap="round"
+            strokeOpacity="0.9"
+            strokeWidth={compact ? "1.6" : "2.2"}
+          />
+          {!compact ? (
+            <text
+              fill="#142235"
+              fontFamily='Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif'
+              fontSize="14"
+              fontWeight="650"
+              x="4"
+              y="88"
+            >
+              DATA · PUBLIC SYSTEMS · DECISION-MAKING
+            </text>
+          ) : null}
+        </g>
       </svg>
     </span>
   );
