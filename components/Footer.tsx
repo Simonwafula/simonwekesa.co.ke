@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="border-t border-stone-200 px-5 py-10 sm:px-8">
       <div className="mx-auto flex max-w-6xl flex-col gap-8 md:flex-row md:items-start md:justify-between">
         <div>
-          <SignatureLogo markClassName="size-9" textClassName="text-[1.55rem]" />
+          <SignatureLogo />
           <p className="mt-2 text-sm text-slate-600">Quiet work on complex problems.</p>
           <p className="mt-5 max-w-xl text-xs leading-6 text-slate-500">
             Views expressed here are personal and do not represent any institution I am affiliated with.
