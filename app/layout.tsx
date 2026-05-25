@@ -20,6 +20,14 @@ export const metadata: Metadata = {
     "Mstatili",
   ],
   metadataBase: new URL("https://simonwekesa.co.ke"),
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   openGraph: {
     title: "Simon Wekesa — Quiet work on complex problems",
     description: "Economics, statistics, data science, public systems, planning, and decision support.",
