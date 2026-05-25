@@ -12,7 +12,7 @@ export function Contact() {
             <div>
               <dt className="font-medium text-slate-950">Email</dt>
               <dd className="mt-1 text-slate-600">
-                <a className="transition duration-150 hover:text-[#1E3A5F]" href={`mailto:${content.contact.email}`}>
+                <a className="transition duration-150 hover:text-[#8A5A32]" href={`mailto:${content.contact.email}`}>
                   {content.contact.email}
                 </a>
               </dd>
@@ -20,7 +20,7 @@ export function Contact() {
             <div>
               <dt className="font-medium text-slate-950">LinkedIn</dt>
               <dd className="mt-1 text-slate-600">
-                <a className="break-words transition duration-150 hover:text-[#1E3A5F]" href={content.contact.linkedin} rel="noreferrer" target="_blank">
+                <a className="break-words transition duration-150 hover:text-[#8A5A32]" href={content.contact.linkedin} rel="noreferrer" target="_blank">
                   LinkedIn profile
                 </a>
               </dd>
@@ -28,7 +28,7 @@ export function Contact() {
             <div>
               <dt className="font-medium text-slate-950">GitHub</dt>
               <dd className="mt-1 text-slate-600">
-                <a className="break-words transition duration-150 hover:text-[#1E3A5F]" href={content.contact.github} rel="noreferrer" target="_blank">
+                <a className="break-words transition duration-150 hover:text-[#8A5A32]" href={content.contact.github} rel="noreferrer" target="_blank">
                   GitHub profile
                 </a>
               </dd>
@@ -36,7 +36,7 @@ export function Contact() {
             <div>
               <dt className="font-medium text-slate-950">Mstatili</dt>
               <dd className="mt-1 text-slate-600">
-                <a className="break-words transition duration-150 hover:text-[#1E3A5F]" href={content.contact.mstatili} rel="noreferrer" target="_blank">
+                <a className="break-words transition duration-150 hover:text-[#8A5A32]" href={content.contact.mstatili} rel="noreferrer" target="_blank">
                   Mstatili Technologies
                 </a>
               </dd>
@@ -67,7 +67,7 @@ export function Contact() {
             <label className="block text-sm font-medium text-slate-800">
               Name
               <input
-                className="mt-2 min-h-11 w-full rounded border border-stone-300 bg-white px-3 text-slate-900 outline-none transition duration-150 focus:border-[#1E3A5F] focus:ring-2 focus:ring-[#1E3A5F]/15"
+                className="mt-2 min-h-11 w-full rounded border border-stone-300 bg-white px-3 text-slate-900 outline-none transition duration-150 focus:border-[#8A5A32] focus:ring-2 focus:ring-[#8A5A32]/15"
                 name="name"
                 required
                 type="text"
@@ -76,7 +76,7 @@ export function Contact() {
             <label className="block text-sm font-medium text-slate-800">
               Email
               <input
-                className="mt-2 min-h-11 w-full rounded border border-stone-300 bg-white px-3 text-slate-900 outline-none transition duration-150 focus:border-[#1E3A5F] focus:ring-2 focus:ring-[#1E3A5F]/15"
+                className="mt-2 min-h-11 w-full rounded border border-stone-300 bg-white px-3 text-slate-900 outline-none transition duration-150 focus:border-[#8A5A32] focus:ring-2 focus:ring-[#8A5A32]/15"
                 name="email"
                 required
                 type="email"
@@ -86,13 +86,13 @@ export function Contact() {
           <label className="mt-5 block text-sm font-medium text-slate-800">
             Message
             <textarea
-              className="mt-2 min-h-36 w-full resize-y rounded border border-stone-300 bg-white px-3 py-3 text-slate-900 outline-none transition duration-150 focus:border-[#1E3A5F] focus:ring-2 focus:ring-[#1E3A5F]/15"
+              className="mt-2 min-h-36 w-full resize-y rounded border border-stone-300 bg-white px-3 py-3 text-slate-900 outline-none transition duration-150 focus:border-[#8A5A32] focus:ring-2 focus:ring-[#8A5A32]/15"
               name="message"
               required
             />
           </label>
           <button
-            className="mt-6 inline-flex min-h-11 w-full items-center justify-center rounded bg-[#1E3A5F] px-5 py-3 text-sm font-medium text-white transition duration-150 hover:bg-slate-800 sm:w-auto"
+            className="mt-6 inline-flex min-h-11 w-full items-center justify-center rounded bg-[#8A5A32] px-5 py-3 text-sm font-medium text-white transition duration-150 hover:bg-[#6F4426] sm:w-auto"
             type="submit"
           >
             Send message

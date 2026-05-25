@@ -31,7 +31,7 @@ export function Header() {
 
         <div className="hidden md:block">
           <a
-            className="rounded border border-[#1E3A5F] px-4 py-2 text-sm font-medium text-[#1E3A5F] transition duration-150 hover:bg-[#1E3A5F] hover:text-white"
+            className="rounded border border-[#8A5A32] px-4 py-2 text-sm font-medium text-[#8A5A32] transition duration-150 hover:bg-[#8A5A32] hover:text-white"
             href="#contact"
           >
             Contact

@@ -50,10 +50,10 @@ export default async function NotePage({ params }: NotePageProps) {
       <Header />
       <main className="px-5 py-16 sm:px-8 lg:py-24">
         <article className="mx-auto max-w-3xl">
-          <a className="text-sm font-medium text-[#1E3A5F] hover:text-slate-950" href="/#notes">
+          <a className="text-sm font-medium text-[#8A5A32] hover:text-slate-950" href="/#notes">
             Back to notes
           </a>
-          <p className="mt-10 text-sm font-medium text-[#1E3A5F]">{note.status}</p>
+          <p className="mt-10 text-sm font-medium text-[#8A5A32]">{note.status}</p>
           <h1 className="mt-4 font-[var(--font-lora)] text-4xl leading-tight text-balance text-slate-950 sm:text-5xl">
             {note.title}
           </h1>

@@ -7,13 +7,13 @@
     <path d="M120 0V630M240 0V630M360 0V630M480 0V630M600 0V630M720 0V630M840 0V630M960 0V630M1080 0V630"/>
   </g>
   <g fill="none" stroke-linecap="square">
-    <rect x="118" y="126" width="252" height="172" stroke="#1E3A5F" stroke-width="3"/>
+    <rect x="118" y="126" width="252" height="172" stroke="#8A5A32" stroke-width="3"/>
     <rect x="744" y="118" width="212" height="294" stroke="#B9B4AA" stroke-width="3"/>
-    <rect x="610" y="372" width="310" height="142" stroke="#1E3A5F" stroke-width="2"/>
+    <rect x="610" y="372" width="310" height="142" stroke="#8A5A32" stroke-width="2"/>
     <rect x="420" y="224" width="128" height="88" stroke="#B9B4AA" stroke-width="2"/>
     <path d="M370 212H744M548 268V442M548 442H610" stroke="#B9B4AA" stroke-width="2"/>
   </g>
-  <g fill="#1E3A5F">
+  <g fill="#8A5A32">
     <circle cx="370" cy="212" r="7"/>
     <circle cx="744" cy="212" r="7"/>
     <circle cx="548" cy="442" r="6"/>

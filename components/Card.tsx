@@ -25,11 +25,11 @@ export function MotifIcon({ index }: { index: number }) {
       aria-hidden="true"
       className="relative mb-6 flex size-10 items-center justify-center rounded border border-stone-300 bg-stone-50 sm:size-11"
     >
-      <span className="absolute left-2 top-2 size-1.5 rounded-full bg-[#1E3A5F]" />
+      <span className="absolute left-2 top-2 size-1.5 rounded-full bg-[#8A5A32]" />
       <span className="absolute bottom-2 right-2 size-1 rounded-full bg-stone-400" />
       <span
         className={cn(
-          "block border border-[#1E3A5F]/70",
+          "block border border-[#8A5A32]/70",
           index % 3 === 0 && "size-5",
           index % 3 === 1 && "h-4 w-6",
           index % 3 === 2 && "h-6 w-4",

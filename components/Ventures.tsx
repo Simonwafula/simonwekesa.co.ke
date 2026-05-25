@@ -15,7 +15,7 @@ export function Ventures() {
             ))}
           </div>
           <a
-            className="mt-8 inline-flex min-h-11 items-center justify-center rounded border border-[#1E3A5F] px-4 py-3 text-sm font-medium text-[#1E3A5F] transition duration-150 hover:bg-[#1E3A5F] hover:text-white"
+            className="mt-8 inline-flex min-h-11 items-center justify-center rounded border border-[#8A5A32] px-4 py-3 text-sm font-medium text-[#8A5A32] transition duration-150 hover:bg-[#8A5A32] hover:text-white"
             href={content.contact.mstatili}
             rel="noreferrer"
             target="_blank"
@@ -24,7 +24,7 @@ export function Ventures() {
           </a>
         </Card>
         <Card className="bg-[#FAFAF7]">
-          <p className="text-xs font-medium uppercase text-[#1E3A5F]">Concept</p>
+          <p className="text-xs font-medium uppercase text-[#8A5A32]">Concept</p>
           <h3 className="mt-4 text-2xl font-semibold text-slate-950">Sonko</h3>
           <p className="mt-4 text-pretty text-sm leading-7 text-slate-600">{content.ventures.sonko}</p>
         </Card>

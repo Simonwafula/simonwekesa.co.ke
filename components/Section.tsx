@@ -16,7 +16,7 @@ export function Section({ id, title, eyebrow, intro, children, className }: Sect
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto mb-10 max-w-2xl text-center sm:mb-12">
           {eyebrow ? (
-            <p className="mb-3 text-sm font-medium text-[#1E3A5F]">{eyebrow}</p>
+            <p className="mb-3 text-sm font-medium text-[#8A5A32]">{eyebrow}</p>
           ) : null}
           <h2 className="font-[var(--font-lora)] text-3xl leading-tight text-balance text-slate-950 sm:text-4xl">
             {title}

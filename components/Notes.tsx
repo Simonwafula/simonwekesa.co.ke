@@ -17,7 +17,7 @@ export function Notes() {
             <h3 className="mt-5 text-lg font-semibold text-balance text-slate-950">{note.title}</h3>
             <p className="mt-3 text-pretty text-sm leading-7 text-slate-600">{note.excerpt}</p>
             <a
-              className="mt-6 inline-flex text-sm font-medium text-[#1E3A5F] transition duration-150 hover:text-slate-950"
+              className="mt-6 inline-flex text-sm font-medium text-[#8A5A32] transition duration-150 hover:text-slate-950"
               href={`/notes/${note.slug}`}
             >
               Read note

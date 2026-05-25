@@ -19,9 +19,9 @@ export function About() {
               <p className="mt-2 text-sm leading-6 text-slate-500">Structure, context, and patient analysis.</p>
             </div>
           </div>
-          <div className="mt-10 h-24 w-36 border border-[#1E3A5F]/45 sm:h-28 sm:w-40" aria-hidden="true" />
+          <div className="mt-10 h-24 w-36 border border-[#8A5A32]/45 sm:h-28 sm:w-40" aria-hidden="true" />
           <div className="absolute bottom-8 right-8 h-28 w-20 border border-stone-300 sm:h-32 sm:w-24" aria-hidden="true" />
-          <div className="absolute bottom-20 left-20 size-2 rounded-full bg-[#1E3A5F]" aria-hidden="true" />
+          <div className="absolute bottom-20 left-20 size-2 rounded-full bg-[#8A5A32]" aria-hidden="true" />
           <div className="absolute bottom-16 left-10 h-px w-32 bg-stone-300 sm:w-36" aria-hidden="true" />
         </div>
         <div className="space-y-5 text-[1rem] leading-8 text-slate-600 sm:text-[1.03rem]">

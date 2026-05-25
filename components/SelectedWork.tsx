@@ -14,7 +14,7 @@ export function SelectedWork() {
       <div className="grid gap-5 md:grid-cols-2">
         {content.selectedWork.items.map((item) => (
           <Card className="min-h-52" key={item.title}>
-            <p className="text-xs font-medium uppercase text-[#1E3A5F]">{item.type}</p>
+            <p className="text-xs font-medium uppercase text-[#8A5A32]">{item.type}</p>
             <h3 className="mt-4 text-lg font-semibold text-balance text-slate-950 sm:text-xl">{item.title}</h3>
             <p className="mt-4 text-pretty text-sm leading-7 text-slate-600">{item.text}</p>
           </Card>
