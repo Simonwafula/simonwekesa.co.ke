@@ -34,7 +34,7 @@ export function Header() {
             className="rounded border border-[#8A5A32] px-4 py-2 text-sm font-medium text-[#8A5A32] transition duration-150 hover:bg-[#8A5A32] hover:text-white"
             href="#contact"
           >
-            Contact
+            Connect
           </a>
         </div>
 

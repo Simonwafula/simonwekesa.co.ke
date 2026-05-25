@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Simon Wekesa — Data, Public Systems & Decision-Making",
   description:
-    "Personal website of Simon Wekesa, an economist, statistician, data analyst, public sector professional, and systems thinker working across data, planning, public finance, monitoring and evaluation, and digital systems.",
+    "Personal website of Simon Wekesa, a statistician, data science practitioner, public sector professional, and systems thinker working across data, planning, public finance, monitoring and evaluation, and digital systems.",
   keywords: [
     "Simon Wekesa",
     "economist",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Simon Wekesa — Quiet work on complex problems",
-    description: "Economics, statistics, data science, public systems, planning, and decision support.",
+    description: "Statistics, data science, public systems, planning, and decision support.",
     url: "https://simonwekesa.co.ke",
     siteName: "Simon Wekesa",
     images: [
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Simon Wekesa — Quiet work on complex problems",
-    description: "Economics, statistics, data science, public systems, planning, and decision support.",
+    description: "Statistics, data science, public systems, planning, and decision support.",
     images: ["/og-image.svg"],
   },
 };

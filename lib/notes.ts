@@ -11,6 +11,7 @@ export type Note = {
   excerpt: string;
   date: string;
   status: string;
+  order: number;
   html: string;
 };
 
@@ -19,6 +20,7 @@ type Frontmatter = {
   excerpt?: string;
   date?: string;
   status?: string;
+  order?: number;
 };
 
 function getMarkdownFiles() {
@@ -35,7 +37,7 @@ export function getAllNotes(): Note[] {
       const slug = file.replace(/\.md$/, "");
       return getNoteBySlug(slug);
     })
-    .sort((a, b) => b.date.localeCompare(a.date));
+    .sort((a, b) => a.order - b.order || b.date.localeCompare(a.date));
 }
 
 export function getNoteBySlug(slug: string): Note {
@@ -50,6 +52,7 @@ export function getNoteBySlug(slug: string): Note {
     excerpt: frontmatter.excerpt ?? "",
     date: frontmatter.date ?? "",
     status: frontmatter.status ?? "Draft",
+    order: frontmatter.order ?? 999,
     html: marked.parse(content, { async: false }) as string,
   };
 }

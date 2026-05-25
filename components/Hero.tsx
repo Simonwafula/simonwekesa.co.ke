@@ -37,6 +37,12 @@ export function Hero() {
             </a>
             <a
               className="inline-flex min-h-11 items-center justify-center rounded border border-stone-300 bg-white/70 px-5 py-3 text-sm font-medium text-slate-800 transition duration-150 hover:border-slate-400 hover:bg-white"
+              href="#notes"
+            >
+              Read Notes
+            </a>
+            <a
+              className="inline-flex min-h-11 items-center justify-center rounded px-5 py-3 text-sm font-medium text-slate-700 transition duration-150 hover:text-slate-950"
               href="#contact"
             >
               Get in Touch

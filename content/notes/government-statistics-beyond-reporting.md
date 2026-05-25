@@ -2,7 +2,8 @@
 title: "Why statistics in government should go beyond reporting"
 excerpt: "Data becomes powerful when it helps institutions ask better questions, not just produce tables."
 date: "2026-05-24"
-status: "Draft"
+status: "Coming soon"
+order: 1
 ---
 
 Statistics in public institutions often begin as a reporting obligation. A table is requested, a template is filled, and a number is submitted.

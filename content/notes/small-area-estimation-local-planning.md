@@ -2,7 +2,8 @@
 title: "Small area estimation and local planning"
 excerpt: "Better local estimates can help move planning closer to the places where decisions are actually felt."
 date: "2026-05-24"
-status: "Draft"
+status: "Coming soon"
+order: 3
 ---
 
 Many planning decisions need local evidence, but many surveys are not designed to give reliable estimates at very small geographic levels.

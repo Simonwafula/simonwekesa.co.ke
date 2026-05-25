@@ -2,7 +2,8 @@
 title: "Public finance as a decision system"
 excerpt: "Budgets are not only financial documents. They are institutional choices made visible."
 date: "2026-05-24"
-status: "Draft"
+status: "Coming soon"
+order: 4
 ---
 
 A budget is often read as a financial document. It is also a map of institutional priorities, constraints, negotiations, and choices.
