@@ -6,13 +6,13 @@ import { content } from "@/data/content";
 export function Contact() {
   return (
     <Section id="contact" eyebrow="Contact" title="Let’s connect" intro={content.contact.body} className="bg-white/35">
-      <div className="mx-auto grid max-w-5xl gap-8 lg:grid-cols-[0.85fr_1.15fr]">
-        <div className="rounded-lg border border-stone-200 bg-white/70 p-6 shadow-sm">
+      <div className="mx-auto grid max-w-5xl gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:gap-8">
+        <div className="rounded-lg border border-stone-200 bg-white/75 p-5 shadow-sm sm:p-6">
           <dl className="space-y-5 text-sm">
             <div>
               <dt className="font-medium text-slate-950">Email</dt>
               <dd className="mt-1 text-slate-600">
-                <a className="hover:text-[#1E3A5F]" href={`mailto:${content.contact.email}`}>
+                <a className="transition duration-150 hover:text-[#1E3A5F]" href={`mailto:${content.contact.email}`}>
                   {content.contact.email}
                 </a>
               </dd>
@@ -20,7 +20,7 @@ export function Contact() {
             <div>
               <dt className="font-medium text-slate-950">LinkedIn</dt>
               <dd className="mt-1 text-slate-600">
-                <a className="break-words hover:text-[#1E3A5F]" href={content.contact.linkedin} rel="noreferrer" target="_blank">
+                <a className="break-words transition duration-150 hover:text-[#1E3A5F]" href={content.contact.linkedin} rel="noreferrer" target="_blank">
                   LinkedIn profile
                 </a>
               </dd>
@@ -28,7 +28,7 @@ export function Contact() {
             <div>
               <dt className="font-medium text-slate-950">GitHub</dt>
               <dd className="mt-1 text-slate-600">
-                <a className="break-words hover:text-[#1E3A5F]" href={content.contact.github} rel="noreferrer" target="_blank">
+                <a className="break-words transition duration-150 hover:text-[#1E3A5F]" href={content.contact.github} rel="noreferrer" target="_blank">
                   GitHub profile
                 </a>
               </dd>
@@ -36,7 +36,7 @@ export function Contact() {
             <div>
               <dt className="font-medium text-slate-950">Mstatili</dt>
               <dd className="mt-1 text-slate-600">
-                <a className="break-words hover:text-[#1E3A5F]" href={content.contact.mstatili} rel="noreferrer" target="_blank">
+                <a className="break-words transition duration-150 hover:text-[#1E3A5F]" href={content.contact.mstatili} rel="noreferrer" target="_blank">
                   Mstatili Technologies
                 </a>
               </dd>
@@ -44,12 +44,12 @@ export function Contact() {
           </dl>
         </div>
 
-        <form action="/contact.php" className="rounded-lg border border-stone-200 bg-white/70 p-6 shadow-sm" method="post">
+        <form action="/contact.php" className="rounded-lg border border-stone-200 bg-white/75 p-5 shadow-sm sm:p-6" method="post">
           <Suspense fallback={null}>
             <ContactStatus />
           </Suspense>
           <p className="mb-6 text-sm leading-6 text-slate-500">
-            This form sends through the VPS mail handler. It can be switched to SMTP if the server mail setup needs it.
+            Send a short note, question, or invitation to collaborate.
           </p>
           <input name="subject" type="hidden" value="Website message from simonwekesa.co.ke" />
           <label className="sr-only" htmlFor="website">
@@ -92,7 +92,7 @@ export function Contact() {
             />
           </label>
           <button
-            className="mt-6 inline-flex min-h-11 items-center justify-center rounded bg-[#1E3A5F] px-5 py-3 text-sm font-medium text-white transition duration-150 hover:bg-slate-800"
+            className="mt-6 inline-flex min-h-11 w-full items-center justify-center rounded bg-[#1E3A5F] px-5 py-3 text-sm font-medium text-white transition duration-150 hover:bg-slate-800 sm:w-auto"
             type="submit"
           >
             Send message

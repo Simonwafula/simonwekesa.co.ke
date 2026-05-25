@@ -18,7 +18,7 @@ export default function Home() {
       <main>
         <Hero />
         <Section id="positioning" eyebrow="Positioning" title={content.positioning.title}>
-          <div className="mx-auto max-w-3xl space-y-5 text-[1.03rem] leading-8 text-slate-600">
+          <div className="mx-auto max-w-3xl space-y-5 text-[1rem] leading-8 text-slate-600 sm:text-[1.03rem]">
             {content.positioning.body.map((paragraph) => (
               <p className="text-pretty" key={paragraph}>
                 {paragraph}

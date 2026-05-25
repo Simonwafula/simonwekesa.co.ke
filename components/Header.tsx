@@ -10,7 +10,7 @@ export function Header() {
   const closeMenu = () => setOpen(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-stone-200/80 bg-[#FAFAF7]/92 px-5 py-4 backdrop-blur-sm supports-[padding:max(0px)]:pt-[max(1rem,env(safe-area-inset-top))] sm:px-8">
+    <header className="sticky top-0 z-40 border-b border-stone-200/80 bg-[#FAFAF7] px-5 py-4 supports-[padding:max(0px)]:pt-[max(1rem,env(safe-area-inset-top))] sm:px-8">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4">
         <a href="#" className="text-sm font-semibold text-slate-950" onClick={closeMenu}>
           Simon Wekesa
@@ -55,7 +55,7 @@ export function Header() {
       <div
         id="mobile-navigation"
         className={cn(
-          "mx-auto grid max-w-6xl transition-[grid-template-rows] duration-150 ease-out md:hidden",
+          "mx-auto grid max-w-6xl md:hidden",
           open ? "grid-rows-[1fr]" : "grid-rows-[0fr]",
         )}
       >

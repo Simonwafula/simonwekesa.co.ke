@@ -9,21 +9,21 @@ export const content = {
   hero: {
     headline: "Quiet work on complex problems.",
     subheadline:
-      "I work where data, economics, public systems, and difficult decisions meet — using statistics, data science, planning, and digital systems to turn scattered information into clearer action.",
+      "I work where data, economics, public systems, and difficult decisions meet, using statistics, planning, and digital systems to turn scattered information into clearer action.",
     descriptor: "Economist · Statistician · Data Analyst · Public Sector Professional",
   },
   positioning: {
     title: "Making sense of complexity",
     body: [
-      "I am drawn to problems that require patience, structure, and imagination. My work sits at the intersection of economics, statistics, public finance, monitoring and evaluation, scenario planning, and digital systems.",
-      "I am not interested in data for its own sake. I am interested in what data helps people see, decide, improve, and build.",
-      "My strength is turning unclear situations into organized thinking, practical systems, and evidence that people can use.",
+      "I am drawn to problems that require patience, structure, and imagination. My work sits across economics, statistics, public finance, monitoring and evaluation, scenario planning, and digital systems.",
+      "Data matters most when it helps people see a situation more clearly, weigh trade-offs, and decide what to improve or build next.",
+      "My strength is turning unclear situations into organized thinking, practical systems, and evidence that can be used.",
     ],
   },
   workAreas: [
-      {
-        title: "Public Finance & Planning",
-        text: "Medium-term planning, budget analysis, fiscal briefs, programme coordination, scenario planning, and policy support for public decision-making.",
+    {
+      title: "Public Finance & Planning",
+      text: "Medium-term planning, budget analysis, fiscal briefs, programme coordination, scenario planning, and policy support.",
     },
     {
       title: "Statistics & Data Science",
@@ -33,9 +33,9 @@ export const content = {
       title: "Monitoring & Evaluation",
       text: "Results frameworks, performance tracking, evidence systems, reporting tools, and institutional learning.",
     },
-      {
-        title: "Digital Public Systems",
-        text: "Data workflows, dashboards, indicator platforms, automation, Excel-based reporting tools, and decision-support systems for public institutions.",
+    {
+      title: "Digital Public Systems",
+      text: "Data workflows, dashboards, indicator platforms, automation, Excel-based reporting tools, and decision-support systems.",
     },
     {
       title: "Research & Policy",
@@ -48,7 +48,7 @@ export const content = {
   ],
   selectedWork: {
     intro:
-      "A few areas that reflect how I think, work, and build. Some are professional, some are academic, and some are experimental.",
+      "A few areas that reflect how I think, work, and build across professional, academic, and experimental contexts.",
     items: [
       {
         title: "Ward-Level Poverty Mapping",
@@ -85,8 +85,8 @@ export const content = {
   about: [
     "I am an economist, statistician, data analyst, and public sector professional with a strong interest in economic planning, public finance, monitoring and evaluation, data management, and digital transformation.",
     "My experience spans data-driven decision-making, programme support, scenario planning, data modelling, data collection, analysis, and presentation across public and development-oriented work.",
-    "My work has taught me that useful decisions rarely come from data alone. They come from the careful connection of data, context, people, institutions, and implementation realities.",
-    "I enjoy working on problems where information is scattered, systems are unclear, and decisions still need to be made. That is where structure matters. That is where good questions matter. And that is where thoughtful analysis can make a difference.",
+    "Useful decisions rarely come from data alone. They come from the careful connection of data, context, people, institutions, and implementation realities.",
+    "I enjoy work where information is scattered, systems are unclear, and decisions still need to be made. That is where structure, good questions, and thoughtful analysis can make a difference.",
     "I also explore digital products and data systems through Mstatili Tech and Data Solutions, where I experiment with tools that make analysis, planning, and personal decision-making more practical.",
   ],
   profile: {
