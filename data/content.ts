@@ -90,11 +90,11 @@ export const content = {
     "I also explore digital products and data systems through Mstatili Tech and Data Solutions, a small venture and lab where I test tools that make analysis, planning, and personal decision-making more practical.",
   ],
   profile: {
-    photo: "/images/simon-wekesa-about.jpg",
+    photo: "/images/simon-wekesa-about.png",
     photoAlt: "Portrait of Simon Wekesa",
   },
   media: {
-    heroPhoto: "/images/simon-wekesa-hero.jpg",
+    heroPhoto: "/images/simon-wekesa-hero.png",
     heroPhotoAlt: "Simon Wekesa standing outdoors in a navy blazer",
   },
   credentials: {
