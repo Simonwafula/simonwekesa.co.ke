@@ -1,11 +1,12 @@
 import { content } from "@/data/content";
+import { SignatureLogo } from "@/components/SignatureLogo";
 
 export function Footer() {
   return (
     <footer className="border-t border-stone-200 px-5 py-10 sm:px-8">
       <div className="mx-auto flex max-w-6xl flex-col gap-8 md:flex-row md:items-start md:justify-between">
         <div>
-          <p className="font-semibold text-slate-950">Simon Wekesa</p>
+          <SignatureLogo markClassName="size-9" textClassName="text-[1.55rem]" />
           <p className="mt-2 text-sm text-slate-600">Quiet work on complex problems.</p>
           <p className="mt-5 max-w-xl text-xs leading-6 text-slate-500">
             Views expressed here are personal and do not represent any institution I am affiliated with.

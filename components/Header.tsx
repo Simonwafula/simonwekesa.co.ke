@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { content } from "@/data/content";
 import { cn } from "@/lib/utils";
+import { SignatureLogo } from "@/components/SignatureLogo";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -12,8 +13,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-stone-200/80 bg-[#FAFAF7] px-5 py-4 supports-[padding:max(0px)]:pt-[max(1rem,env(safe-area-inset-top))] sm:px-8">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4">
-        <a href="#" className="text-sm font-semibold text-slate-950" onClick={closeMenu}>
-          Simon Wekesa
+        <a aria-label="Simon Wekesa home" href="#" onClick={closeMenu}>
+          <SignatureLogo textClassName="text-[1.35rem] sm:text-[1.45rem]" />
         </a>
 
         <nav aria-label="Primary navigation" className="hidden items-center gap-7 md:flex">
